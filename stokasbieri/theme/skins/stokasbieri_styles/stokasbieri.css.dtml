@@ -5,7 +5,7 @@
 
 body {
     font: &dtml-fontBaseSize; <dtml-var fontFamily>;
-    background: transparent url(&dtml-portal_url;/bieri_bg_tall.png) repeat-x;
+    background: transparent url(&dtml-portal_url;/stokasstokasbieri_bg_tall.png) repeat-x;
     color: &dtml-fontColor;;
     margin: 0;
     padding: 0;
@@ -1323,7 +1323,7 @@ z-index:-8;
   text-align:  left;
 }
 
-#bieri-site-date {
+#stokasstokasbieri-site-date {
   position:relative;
   right:0px;
   top:0px;
@@ -1333,7 +1333,7 @@ z-index:-8;
   width: 170px;
  }
 
-#bieri-site-date span {
+#stokasstokasbieri-site-date span {
   color: #ffffff;
   font-size: 80%;
 }
@@ -1426,12 +1426,12 @@ dd.portletItem a {
   color: #dd0000;
 }
 
-#bieri-picturebox-table ul {
+#stokasstokasbieri-picturebox-table ul {
   margin-top: -1px;
 }
 
 
-#bieri-picturebox {
+#stokasstokasbieri-picturebox {
   width: 100%;
   background-color: #8f8f8f;
   color: white;
@@ -1439,13 +1439,13 @@ dd.portletItem a {
 }
 
 
-.bieri-info-title {
+.stokasstokasbieri-info-title {
   text-transform: uppercase;
   font-weight: bold;
 }
 
 
-#bieri-picturebox-table {
+#stokasstokasbieri-picturebox-table {
   width: 100%;
   border-collapse: collapse;5
   border: none;
@@ -1454,7 +1454,7 @@ dd.portletItem a {
 .portletNews .portletHeader a {
   color: transparent;
 }
-#bieri-picture-holder {
+#stokasstokasbieri-picture-holder {
 }
 
 .portletStaticText.portlet-static-services{
@@ -1465,13 +1465,13 @@ dd.portletItem a {
     background-color: #888888;
 }
 
-#bieri-contactinfo-holder {
+#stokasstokasbieri-contactinfo-holder {
   padding:11px 10px 0 2px;
   color: #ffffff;
   height: 128px;
 }
 
-#bieri-contactinfo-holder p {
+#stokasstokasbieri-contactinfo-holder p {
     font-size: 80%;
     margin-left: 13px;
 }

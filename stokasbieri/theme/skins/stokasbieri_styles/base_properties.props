@@ -1,8 +1,8 @@
-title:string=Bieri Theme's color, font, logo and border defaults
+title:string=StokasBieri Theme's color, font, logo and border defaults
 
-plone_skin:string=Bieri Theme
+plone_skin:string=StokasBieri Theme
 
-logoName:string=bieri-logo.png
+logoName:string=stokasbieri-logo.png
 
 fontFamily:string=Arial, Helvetica, "Lucida Grande", Verdana, Lucida, sans-serif
 fontBaseSize:string=69%
