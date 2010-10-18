@@ -1,22 +1,22 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
     xmlns:browser="http://namespaces.zope.org/browser"
-    i18n_domain="bieri.theme">
+    i18n_domain="stokasbieri.theme">
 
-  <!-- 'Bieri Theme' Zope 3 browser layer -->
+  <!-- 'StokasBieri Theme' Zope 3 browser layer -->
   <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="Bieri Theme"
+      name="StokasBieri Theme"
       />
 
   <!-- Viewlets registration -->
   <!-- Zope 3 browser resources -->
 
-  <!-- The extra bieri-iefix.css stuff -->
+  <!-- The extra stokasbieri-iefix.css stuff -->
   <browser:viewlet
-    name="bieri.iefix"
-    template="bieri-iefix.pt"
+    name="stokasbieri.iefix"
+    template="stokasbieri-iefix.pt"
     manager="plone.app.layout.viewlets.interfaces.IHtmlHeadLinks"
     permission="zope2.View"
     layer=".interfaces.IThemeSpecific"
@@ -24,7 +24,7 @@
 
   <!-- The search box -->
   <browser:viewlet
-    name="bieri.searchbox"
+    name="stokasbieri.searchbox"
     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
     class=".viewlets.SearchBoxViewlet"
     permission="zope2.View"
@@ -33,18 +33,18 @@
 
   <!-- The rotating picture box -->
   <browser:viewlet
-    name="bieri.picturebox"
+    name="stokasbieri.picturebox"
     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-    class=".viewlets.BieriPictureBoxViewlet"
+    class=".viewlets.StokasBieriPictureBoxViewlet"
     permission="zope2.View"
     layer=".interfaces.IThemeSpecific"
     />
 
   <!-- The top-global-nav "sections" -->
   <browser:viewlet
-    name="bieri.global_sections"
+    name="stokasbieri.global_sections"
     manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
-    class=".viewlets.BieriGlobalSectionsViewlet"
+    class=".viewlets.StokasBieriGlobalSectionsViewlet"
     permission="zope2.View"
     layer=".interfaces.IThemeSpecific"
     />

@@ -1,5 +1,5 @@
-<div id="bieri-picturebox"
-    i18n:domain="bieri.theme"
+<div id="stokasbieri-picturebox"
+    i18n:domain="stokasbieri.theme"
     tal:define="portal_url context/portal_url;" >
 
   <tal:comment replace="nothing">
@@ -59,14 +59,14 @@
     </td>
 
 <td class="contactInfoBox">
-    <div id="bieri-contactinfo-holder">
-      <p class="bieri-info-title">Bieri Company</p>
+    <div id="stokasbieri-contactinfo-holder">
+      <p class="stokasbieri-info-title">stokasbieri Company</p>
       <p>660 Woodward Avenue <br />
         Suite 1500 <br />
         Detroit, MI 48226 <br />
         Phone: (313) 962-2800 <br />
         Fax: (313) 962-5070 <br />
-        Email: info@biericompany.com <br />
+        Email: info@stokasbiericompany.com <br />
       </p>
     </div>
 </td>
@@ -77,4 +77,4 @@
 </table>
 
 
-</div> <!-- end bieri-picturebox -->
+</div> <!-- end stokasbieri-picturebox -->

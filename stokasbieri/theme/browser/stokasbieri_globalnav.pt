@@ -12,7 +12,7 @@
             Tab Name
           </a></li></tal:tabs>
     </ul></tal:tabs></td>
-<td><div id="bieri-site-date">
-    <span tal:content="view/bieriDate"> Wednesday, August 9, 1960 </span>
+<td><div id="stokasbieri-site-date">
+    <span tal:content="view/stokasbieriDate"> Wednesday, August 9, 1960 </span>
   </div></td></tr></table>
 </div>
