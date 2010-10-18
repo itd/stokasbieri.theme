@@ -1,0 +1,13 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    i18n_domain="stokasbieri.theme">
+
+  <!-- File System Directory Views registration -->
+  <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
+  <!--
+  <cmf:registerDirectory name="stokasbieri_images"/>
+  <cmf:registerDirectory name="stokasbieri_templates"/>
+  <cmf:registerDirectory name="stokasbieri_styles"/>
+  -->
+</configure>

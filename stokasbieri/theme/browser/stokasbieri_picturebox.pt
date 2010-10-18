@@ -1,0 +1,80 @@
+<div id="bieri-picturebox"
+    i18n:domain="bieri.theme"
+    tal:define="portal_url context/portal_url;" >
+
+  <tal:comment replace="nothing">
+  </tal:comment>
+
+
+<table id="jwrotate">
+    <tr>
+    <td width='160'>
+        <div id="container1"><a href="http://www.macromedia.com/go/getflashplayer">
+          Get the Flash Player</a> to see this rotator.
+        </div>
+        <script
+            tal:attributes="src string:$portal_url/swfobject.js"
+            type="text/javascript"></script>
+        <script type="text/javascript"
+            tal:content='string:
+            var s1 = new SWFObject("$portal_url/imagerotator.swf","container1","160","140","3","#");
+            s1.addVariable("config","$portal_url/rotator_config.xml");
+            s1.write("container1");
+            '>
+        </script>
+    </td>
+
+
+    <td width="241">
+        <div id="container2"><a href="http://www.macromedia.com/go/getflashplayer">
+          Get the Flash Player</a> to see this rotator2.
+        </div>
+        <script
+            tal:attributes="src string:$portal_url/swfobject.js"
+            type="text/javascript"></script>
+        <script type="text/javascript"
+            tal:content='string:
+            var s2 = new SWFObject("$portal_url/imagerotator.swf","container2","241","141","3","#");
+            s2.addVariable("config","$portal_url/rotator_config2.xml");
+            s2.write("container2");
+            '>
+        </script>
+    </td>
+
+
+    <td width='155'>
+        <div id="container3"><a href="http://www.macromedia.com/go/getflashplayer">
+          Get the Flash Player</a> to see this rotator.
+        </div>
+        <script
+            tal:attributes="src string:$portal_url/swfobject.js"
+            type="text/javascript"></script>
+        <script type="text/javascript"
+            tal:content='string:
+            var s3 = new SWFObject("$portal_url/imagerotator.swf","container3","155","141","4","#");
+            s3.addVariable("config","$portal_url/rotator_config3.xml");
+            s3.write("container3");
+            '>
+        </script>
+    </td>
+
+<td class="contactInfoBox">
+    <div id="bieri-contactinfo-holder">
+      <p class="bieri-info-title">Bieri Company</p>
+      <p>660 Woodward Avenue <br />
+        Suite 1500 <br />
+        Detroit, MI 48226 <br />
+        Phone: (313) 962-2800 <br />
+        Fax: (313) 962-5070 <br />
+        Email: info@biericompany.com <br />
+      </p>
+    </div>
+</td>
+
+
+
+</tr>
+</table>
+
+
+</div> <!-- end bieri-picturebox -->

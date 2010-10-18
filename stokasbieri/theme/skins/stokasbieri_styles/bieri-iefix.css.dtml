@@ -1,0 +1,4 @@
+#xxportal-columns {
+  position: absolute;
+  top: 246px;
+}

@@ -1,0 +1,11 @@
+<config>
+    <height>144</height>
+    <width>160</width>
+    <file>&dtml-portal_url;/BC_series1.xml</file>
+    <repeat>true</repeat>
+    <backcolor></backcolor>
+    <shownavigation>false</shownavigation>
+    <showicons>false</showicons>
+    <rotatetime>5</rotatetime>
+    <overstretch>fit</overstretch>
+</config>

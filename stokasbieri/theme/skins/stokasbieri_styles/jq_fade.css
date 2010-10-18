@@ -1,0 +1,32 @@
+
+/* Rotator Lists */
+
+ul.rotatord {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+ul#col-2.rotatord {
+  margin: 0px;
+}
+ul#col-3.rotatord {
+  margin: 0px;
+}
+
+ul.rotatord li{
+  padding: 0px;
+  margin: 0px;
+  }
+ul.rotatord li img{
+  border: none;
+  padding: 0px;
+  margin-top: -1px;
+}
+
+.rotatort {
+   border-collapse: collapse;
+  border-spacing: 0px;
+  background-color: #333;
+  border: none;
+}

@@ -1,0 +1,74 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="bieri.theme">
+
+  <!-- 'Bieri Theme' Zope 3 browser layer -->
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="Bieri Theme"
+      />
+
+  <!-- Viewlets registration -->
+  <!-- Zope 3 browser resources -->
+
+  <!-- The extra bieri-iefix.css stuff -->
+  <browser:viewlet
+    name="bieri.iefix"
+    template="bieri-iefix.pt"
+    manager="plone.app.layout.viewlets.interfaces.IHtmlHeadLinks"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific"
+    />
+
+  <!-- The search box -->
+  <browser:viewlet
+    name="bieri.searchbox"
+    manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+    class=".viewlets.SearchBoxViewlet"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific"
+    />
+
+  <!-- The rotating picture box -->
+  <browser:viewlet
+    name="bieri.picturebox"
+    manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+    class=".viewlets.BieriPictureBoxViewlet"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific"
+    />
+
+  <!-- The top-global-nav "sections" -->
+  <browser:viewlet
+    name="bieri.global_sections"
+    manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+    class=".viewlets.BieriGlobalSectionsViewlet"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific"
+    />
+<!-- move the breadcrumbs to above content title -->
+  <browser:viewlet
+    name="plone.path_bar"
+    manager="plone.app.layout.viewlets.interfaces.IAboveContentTitle"
+    class="plone.app.layout.viewlets.common.PathBarViewlet"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific"
+    />
+  <!-- The footer -->
+  <browser:viewlet
+    name="plone.footer"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    template="footer.pt"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific"
+    />
+  <browser:viewlet
+    name="plone.personal_bar"
+    manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+    class="plone.app.layout.viewlets.common.PersonalBarViewlet"
+    permission="zope2.View"
+    layer=".interfaces.IThemeSpecific"
+    />
+</configure>

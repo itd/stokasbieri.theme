@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Bieri Theme">
+
+ <object name="bieri_images"
+    meta_type="Filesystem Directory View"
+    directory="bieri.theme:skins/bieri_images"/>
+ <object name="bieri_templates"
+    meta_type="Filesystem Directory View"
+    directory="bieri.theme:skins/bieri_templates"/>
+ <object name="bieri_styles"
+    meta_type="Filesystem Directory View"
+    directory="bieri.theme:skins/bieri_styles"/>
+ <object name="bieri_js"
+    meta_type="Filesystem Directory View"
+    directory="bieri.theme:skins/bieri_js"/>
+
+ <skin-path name="Bieri Theme" based-on="Plone Default">
+
+ <layer name="bieri_images"
+     insert-after="custom"/>
+  <layer name="bieri_templates"
+     insert-after="bieri_images"/>
+  <layer name="bieri_styles"
+     insert-after="bieri_templates"/>
+  <layer name="bieri_js"
+     insert-after="bieri_styles"/>
+ </skin-path>
+
+</object>

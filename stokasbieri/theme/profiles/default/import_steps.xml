@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<import-steps>
+  <import-step id="bieri.theme.various"
+               version="20090824-01"
+               handler="bieri.theme.setuphandlers.setupVarious"
+               title="Bieri Theme: miscellaneous import steps">
+    <dependency step="skins" />
+    Various import steps that are not handled by GS import/export
+    handlers.
+  </import-step>
+</import-steps>

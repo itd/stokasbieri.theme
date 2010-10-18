@@ -1,0 +1,47 @@
+title:string=Bieri Theme's color, font, logo and border defaults
+
+plone_skin:string=Bieri Theme
+
+logoName:string=bieri-logo.png
+
+fontFamily:string=Arial, Helvetica, "Lucida Grande", Verdana, Lucida, sans-serif
+fontBaseSize:string=69%
+fontColor:string=#888888
+fontSmallSize:string=85%
+
+backgroundColor:string=transparent
+
+linkColor:string=#624D15
+linkActiveColor:string=#cc0000
+linkVisitedColor:string=#624D15
+
+borderWidth:string=1px
+borderStyle:string=solid
+borderStyleAnnotations:string=dashed
+
+globalBorderColor:string=#cccccc
+globalBackgroundColor:string=#dee7ec
+globalFontColor:string=#436976
+
+headingFontFamily:string=Arial, Helvetica, "Lucida Grande", Verdana, Lucida, sans-serif
+
+contentViewBorderColor:string=#74ae0b
+contentViewBackgroundColor:string=#cde2a7
+contentViewFontColor:string=#578308
+
+inputFontColor:string=Black
+
+textTransform:string=lowercase
+
+evenRowBackgroundColor:string=#eef3f5
+oddRowBackgroundColor:string=transparent
+
+notifyBorderColor:string=#ffa500
+notifyBackgroundColor:string=#ffce7b
+
+discreetColor:string=#76797c
+helpBackgroundColor:string=#ffffe1
+
+portalMinWidth:string=730px
+columnOneWidth:string=182px
+columnTwoWidth:string=182px

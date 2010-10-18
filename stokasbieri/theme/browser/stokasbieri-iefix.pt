@@ -1,0 +1,16 @@
+
+<!--[if IE 6]>
+  <style type="text/css">
+  #portal-columns {
+    position: absolute;
+    top: 246px;
+  }
+  #portal-personaltools {
+    position: relative;
+    top: 30px;
+  }
+  #portal-footer {
+    margin-top: 20px;
+  }
+  </style>
+<![endif]-->

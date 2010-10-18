@@ -1,0 +1,24 @@
+/*
+** Table-based column layout for all browsers.
+**
+** There's a table-less column layout alternative in the plone_tableless
+** skin layer, if you prefer layouts without tables.
+*/
+
+/* <dtml-with base_properties> */
+
+
+
+/* fullscreen */
+body.fullscreen #portal-column-one,
+body.fullscreen #portal-column-two {
+    display: none;
+}
+body.fullscreen #portal-column-content {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* </dtml-with> */
+

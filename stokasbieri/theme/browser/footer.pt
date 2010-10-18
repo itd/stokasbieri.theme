@@ -1,0 +1,15 @@
+
+  <div id="portal-footer"
+      tal:define="siteroot context/@@plone_portal_state/navigation_root_path;">
+    <p>
+      <a tal:attributes="href string:${siteroot}/history/">History</a> |
+      <a tal:attributes="href string:${siteroot}/team/">Our Team</a> |
+      <a tal:attributes="href string:${siteroot}/services/">Services</a> |
+      <a tal:attributes="href string:${siteroot}/market/">Market Report</a>
+    </p>
+    <p>
+      &copy; Bieri Company |
+      <a tal:attributes="href string:${siteroot}/contact/">Contact us</a>
+    </p>
+  </div>
+
