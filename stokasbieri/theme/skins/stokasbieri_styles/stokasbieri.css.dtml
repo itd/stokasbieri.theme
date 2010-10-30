@@ -5,7 +5,7 @@
 
 body {
     font: &dtml-fontBaseSize; <dtml-var fontFamily>;
-    background: transparent url(&dtml-portal_url;/stokasstokasbieri_bg_tall.png) repeat-x;
+    background: transparent url(&dtml-portal_url;/stokasbieri_bg_tall.png) repeat-x;
     color: &dtml-fontColor;;
     margin: 0;
     padding: 0;
@@ -246,7 +246,7 @@ h3, h4, h5, h6 {
 #portal-logo img {
     border: 0;
     padding: 0;
-    margin: 10px 0px 0px 15px;
+    margin: 0px 0px 8px 7px;
 }
 
 /* The skin switcher at the top, only shows up if you have multiple skins available */
@@ -1253,11 +1253,6 @@ div.managedPortlet.portlet {
 }
 
 
-
-
-
-
-
 body {
   margin: 0 0;
   padding-top: 21px;
@@ -1274,7 +1269,7 @@ body {
 }
 
 #portal-globalnav {
-  background-color: #624d15;
+  background-color: #0039A6;
 }
 
 
@@ -1305,7 +1300,7 @@ z-index: 2;
 
 
 #portal-column-two {
-  background-color: #dbceac;
+  background-color: #ccc;
   border-collapse:collapse;
 }
   padding:20px 0px 100px 0px;
@@ -1323,7 +1318,7 @@ z-index:-8;
   text-align:  left;
 }
 
-#stokasstokasbieri-site-date {
+#stokasbieri-site-date {
   position:relative;
   right:0px;
   top:0px;
@@ -1333,7 +1328,7 @@ z-index:-8;
   width: 170px;
  }
 
-#stokasstokasbieri-site-date span {
+#stokasbieri-site-date span {
   color: #ffffff;
   font-size: 80%;
 }
@@ -1345,7 +1340,7 @@ z-index:-8;
 }
 
 #portal-column-two a {
-  color: #666;
+  color: #0039a6;
   text-decoration: none;
 }
 
@@ -1426,12 +1421,12 @@ dd.portletItem a {
   color: #dd0000;
 }
 
-#stokasstokasbieri-picturebox-table ul {
+#stokasbieri-picturebox-table ul {
   margin-top: -1px;
 }
 
 
-#stokasstokasbieri-picturebox {
+#stokasbieri-picturebox {
   width: 100%;
   background-color: #8f8f8f;
   color: white;
@@ -1439,13 +1434,13 @@ dd.portletItem a {
 }
 
 
-.stokasstokasbieri-info-title {
+.stokasbieri-info-title {
   text-transform: uppercase;
   font-weight: bold;
 }
 
 
-#stokasstokasbieri-picturebox-table {
+#stokasbieri-picturebox-table {
   width: 100%;
   border-collapse: collapse;5
   border: none;
@@ -1454,7 +1449,7 @@ dd.portletItem a {
 .portletNews .portletHeader a {
   color: transparent;
 }
-#stokasstokasbieri-picture-holder {
+#stokasbieri-picture-holder {
 }
 
 .portletStaticText.portlet-static-services{
@@ -1462,20 +1457,25 @@ dd.portletItem a {
 }
 
 .contactInfoBox {
-    background-color: #888888;
+    background-color: #0039A6;
 }
 
-#stokasstokasbieri-contactinfo-holder {
+#stokasbieri-contactinfo-holder {
   padding:11px 10px 0 2px;
-  color: #ffffff;
   height: 128px;
 }
 
-#stokasstokasbieri-contactinfo-holder p {
+#stokasbieri-contactinfo-holder p {
     font-size: 80%;
     margin-left: 13px;
 }
 
+p #stokasbieri-info-title,
+#stokasbieri-contactinfo-holder,
+#stokasbieri-contactinfo-holder p,
+#stokasbieri-contactinfo-holder a {
+      color: #ffffff;
+}
 
 
 #jwrotate {
@@ -1490,7 +1490,9 @@ dd.portletItem a {
 }
 
 
-
+#globalnav-wrapper {
+    background-color: #666;
+}
 
 /* </dtml-with> */
 /* Latest version of the documentation on pre-defined properties from Plone

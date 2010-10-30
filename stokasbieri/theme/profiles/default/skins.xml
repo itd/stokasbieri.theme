@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <object name="portal_skins" allow_any="False" cookie_persistence="False"
-   default_skin="Bieri Theme">
+   default_skin="stokasbieri Theme">
 
- <object name="bieri_images"
+ <object name="stokasbieri_images"
     meta_type="Filesystem Directory View"
-    directory="bieri.theme:skins/bieri_images"/>
- <object name="bieri_templates"
+    directory="stokasbieri.theme:skins/stokasbieri_images"/>
+ <object name="stokasbieri_templates"
     meta_type="Filesystem Directory View"
-    directory="bieri.theme:skins/bieri_templates"/>
- <object name="bieri_styles"
+    directory="stokasbieri.theme:skins/stokasbieri_templates"/>
+ <object name="stokasbieri_styles"
     meta_type="Filesystem Directory View"
-    directory="bieri.theme:skins/bieri_styles"/>
- <object name="bieri_js"
+    directory="stokasbieri.theme:skins/stokasbieri_styles"/>
+ <object name="stokasbieri_js"
     meta_type="Filesystem Directory View"
-    directory="bieri.theme:skins/bieri_js"/>
+    directory="stokasbieri.theme:skins/stokasbieri_js"/>
 
- <skin-path name="Bieri Theme" based-on="Plone Default">
+ <skin-path name="stokasbieri Theme" based-on="Plone Default">
 
- <layer name="bieri_images"
+ <layer name="stokasbieri_images"
      insert-after="custom"/>
-  <layer name="bieri_templates"
-     insert-after="bieri_images"/>
-  <layer name="bieri_styles"
-     insert-after="bieri_templates"/>
-  <layer name="bieri_js"
-     insert-after="bieri_styles"/>
+  <layer name="stokasbieri_templates"
+     insert-after="stokasbieri_images"/>
+  <layer name="stokasbieri_styles"
+     insert-after="stokasbieri_templates"/>
+  <layer name="stokasbieri_js"
+     insert-after="stokasbieri_styles"/>
  </skin-path>
 
 </object>

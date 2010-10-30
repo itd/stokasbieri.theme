@@ -4,7 +4,10 @@
     i18n_domain="stokasbieri.theme">
 
   <!-- File System Directory Views registration -->
-  <cmf:registerDirectory name="skins" directory="skins" recursive="True" />
+  <cmf:registerDirectory
+    name="skins"
+      directory="skins"
+      recursive="True" />
   <!--
   <cmf:registerDirectory name="stokasbieri_images"/>
   <cmf:registerDirectory name="stokasbieri_templates"/>

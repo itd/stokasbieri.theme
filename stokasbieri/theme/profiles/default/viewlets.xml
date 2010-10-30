@@ -1,35 +1,40 @@
 <?xml version="1.0"?>
 <object>
-  <order manager="plone.htmlhead.links" skinname="Bieri Theme">
-    <viewlet name="bieri.iefixes" insert-after="*" />
-  </order>
-  <order manager="plone.portalheader" skinname="Bieri Theme">
-    <viewlet name="plone.skip_links" />
-    <viewlet name="plone.logo" />
-    <viewlet name="bieri.global_sections" />
-    <viewlet name="bieri.picturebox" />
-  </order>
-  <order manager="plone.portalfooter" skinname="Bieri Theme">
-    <viewlet name="plone.personal_bar" />
-    <viewlet name="plone.analytics" />
-    <viewlet name="plone.footer" />
-  </order>
-  <order manager="plone.abovecontenttitle" skinname="Bieri Theme">
-    <viewlet name="plone.path_bar"/>
-  </order>
-  <hidden manager="plone.portalheader" skinname="Bieri Theme">
+  <hidden manager="plone.portalheader" skinname="stokasbieri Theme">
     <viewlet name="plone.global_sections" />
     <viewlet name="plone.site_actions"/>
-    <viewlet name="plone.searchbox"/>
   </hidden>
-  <hidden manager="plone.portaltop" skinname="Bieri Theme">
+  <hidden manager="plone.portaltop" skinname="stokasbieri Theme">
     <viewlet name="plone.path_bar"/>
     <viewlet name="plone.personal_bar"/>
+    <viewlet name="plone.searchbox"/>
+    <viewlet name="stokasbieri.searchbox"/>
   </hidden>
-  <hidden manager="plone.abovecontentbody" skinname="Bieri Theme">
+  <hidden manager="plone.abovecontentbody" skinname="stokasbieri Theme">
     <viewlet name="plone.presentation"/>
   </hidden>
-  <hidden manager="plone.portalfooter" skinname="Bieri Theme">
+  <hidden manager="plone.portalfooter" skinname="stokasbieri Theme">
     <viewlet name="plone.colophon"/>
   </hidden>
+
+
+<order manager="plone.htmlhead.links" skinname="stokasbieri Theme">
+  <viewlet name="bieri.iefixes" insert-after="*" />
+</order>
+<order manager="plone.portalheader" skinname="stokasbieri Theme">
+  <viewlet name="plone.skip_links" />
+  <viewlet name="plone.logo" />
+  <viewlet name="stokasbieri.searchbox" />
+  <viewlet name="stokasbieri.global_sections" />
+  <viewlet name="stokasbieri.picturebox" />
+</order>
+<order manager="plone.portalfooter" skinname="stokasbieri Theme">
+  <viewlet name="plone.personal_bar" />
+  <viewlet name="plone.analytics" />
+  <viewlet name="plone.footer" />
+</order>
+<order manager="plone.abovecontenttitle" skinname="stokasbieri Theme">
+  <viewlet name="plone.path_bar"/>
+</order>
+
 </object>

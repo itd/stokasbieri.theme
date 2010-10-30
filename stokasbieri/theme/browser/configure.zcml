@@ -7,7 +7,7 @@
   <interface
       interface=".interfaces.IThemeSpecific"
       type="zope.publisher.interfaces.browser.IBrowserSkinType"
-      name="StokasBieri Theme"
+      name="stokasbieri Theme"
       />
 
   <!-- Viewlets registration -->

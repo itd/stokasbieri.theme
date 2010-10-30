@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <import-steps>
-  <import-step id="bieri.theme.various"
+  <import-step id="stokasbieri.theme.various"
                version="20090824-01"
-               handler="bieri.theme.setuphandlers.setupVarious"
-               title="Bieri Theme: miscellaneous import steps">
+               handler="stokasbieri.theme.setuphandlers.setupVarious"
+               title="stokasbieri Theme: miscellaneous import steps">
     <dependency step="skins" />
     Various import steps that are not handled by GS import/export
     handlers.

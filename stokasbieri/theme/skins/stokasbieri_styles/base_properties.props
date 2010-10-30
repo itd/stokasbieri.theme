@@ -1,6 +1,6 @@
-title:string=StokasBieri Theme's color, font, logo and border defaults
+title:string=stokasbieri Theme's color, font, logo and border defaults
 
-plone_skin:string=StokasBieri Theme
+plone_skin:string=stokasbieri Theme
 
 logoName:string=stokasbieri-logo.png
 
@@ -11,9 +11,10 @@ fontSmallSize:string=85%
 
 backgroundColor:string=transparent
 
-linkColor:string=#624D15
-linkActiveColor:string=#cc0000
-linkVisitedColor:string=#624D15
+linkColor:string=#0039A6
+linkActiveColor:string=#1049b6
+linkVisitedColor:string=#0039A6
+
 
 borderWidth:string=1px
 borderStyle:string=solid

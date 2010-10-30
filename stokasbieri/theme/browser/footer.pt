@@ -8,7 +8,7 @@
       <a tal:attributes="href string:${siteroot}/market/">Market Report</a>
     </p>
     <p>
-      &copy; Bieri Company |
+      &copy; Stokas-Bieri Company |
       <a tal:attributes="href string:${siteroot}/contact/">Contact us</a>
     </p>
   </div>
